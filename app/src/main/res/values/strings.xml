@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">LabExer3</string>
+    <string name="todo">TODO</string>
+    <string name="please_login">Please Login</string>
+    <string name="click_the_icon">Click the icon</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOG IN</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="email">Email Address</string>
+    <string name="email_address">Email Address</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent
+"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/ic_baseline_group_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginRight="4pt"
+        android:paddingLeft="8dp"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/century_gothic"
+        android:hint="@string/email_address"
+        android:importantForAutofill="no"
+        tools:ignore="RtlSymmetry,TextFields"
+        android:paddingStart="8dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:layout_marginLeft="4pt"
+        android:layout_marginRight="4pt"
+        android:paddingLeft="8dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/century_gothic"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        tools:ignore="RtlHardcoded,RtlSymmetry,TextFields"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4pt"
+        android:layout_marginLeft="4pt"
+        android:fontFamily="@font/century_gothic"
+        android:textColor="@color/black"
+        app:backgroundTint="@null"
+        android:background="@drawable/rounded_buttons"
+        android:layout_marginTop="10pt"
+        android:text="@string/log_in" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="175dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.136"
+        app:srcCompat="@drawable/ic_baseline_fingerprint_24"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+
+</LinearLayout>

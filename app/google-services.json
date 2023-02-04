@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489959810104",
+    "project_id": "labexer3",
+    "storage_bucket": "labexer3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489959810104:android:6cc39a62bee800dc6972cd",
+        "android_client_info": {
+          "package_name": "com.example.labexer3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489959810104-9knv77p91nd00dtuh2metv0hal56rvhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsu0zEdJ7WYw1PT_KrJldfTub4_LioWUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489959810104-9knv77p91nd00dtuh2metv0hal56rvhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
